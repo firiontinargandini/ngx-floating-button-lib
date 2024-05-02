@@ -1,0 +1,8 @@
+<button
+  class="floating-button"
+  (click)="onClick()"
+  [class.primary]="type === 'primary'"
+  [class.square]="shape === 'square'"
+>
+  <ng-content></ng-content>
+</button>
